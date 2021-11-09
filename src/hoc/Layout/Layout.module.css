@@ -1,0 +1,17 @@
+.container
+{
+    width: 100%;
+
+    box-sizing: border-box;  
+    
+    
+    
+}
+
+.controler
+{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    
+}

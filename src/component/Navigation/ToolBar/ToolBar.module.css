@@ -1,0 +1,50 @@
+.container
+{
+    height: 100%;
+    width: 100%;
+    display: block;
+    justify-content: flex-start;
+    padding: 0 20px;
+    z-index: 90;
+    box-sizing: border-box;
+    color:white;
+    
+    
+
+}
+.container1
+{
+    height: 8%;
+    width: 100%;
+    
+    top:0;
+    left:0;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    
+    z-index: 90;
+    box-sizing: border-box;
+    color:white;
+    box-shadow: 2px 2px 4px #000000;
+    
+
+}
+
+@media (max-width:800px)
+{
+    .disableBar {
+        display: none;
+    }
+    .container
+    {
+        height: 100%;
+        display: flex;
+        
+    }
+    .container1{
+        height: 60px;
+        
+    }
+    
+}

@@ -1,0 +1,173 @@
+.Sender
+{
+  
+    width: 100%;
+    background-color: aliceblue;
+    word-wrap:break-word;
+    border-radius: 12px;
+    padding: 5px;
+    position: relative;
+}
+.Sender:hover .menuList::before
+{
+  display: flex;
+  /* position: absolute;
+   */
+  content: '';
+  width: 5px;
+  height: 5px;
+  border-top: 3px solid #333;
+  border-right: 3px solid #333;
+  -moz-transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+  transform: rotate(135deg);
+}
+.replytext:hover{
+  background-color: #9db6ec;
+}
+.ListOfaction
+{
+  margin-top: 20px;
+  position:absolute;
+  z-index: 150;
+  background-color: white;
+  width: 100px;
+  height: 100px;
+  border-radius: 2px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  left: 40px;
+}
+
+.adjustListofaction{
+  left: 390px;
+
+}
+.ListOfactionNone
+{
+  display: none;
+}
+.containerS
+{
+  margin: 10px;
+  width: 80%;
+}
+.menuList::before
+{
+  display: none;
+}
+
+
+/* .Sender:hover::before
+{
+  
+  content:'df';
+  left: 0px;
+  
+  
+} */
+.Receiver
+{
+    width: 80%;
+    word-wrap:break-word;
+    border-radius: 12px;
+    padding: 5px;
+    background-color: #c3c3f5;
+    position: relative;
+  
+}
+.Rotate{
+ /*  transform: rotate(-180deg); */
+}
+.replybox
+{
+  
+  width: 90%;
+  height: 70px;
+
+  border-radius: 12px;
+  padding: 5px;
+  background-color: rgb(213, 223, 231);
+  position: relative;
+  overflow: hidden;
+  text-overflow: ellipsis; 
+  white-space: nowrap; 
+}
+.Receiver:hover .menuList::before
+{
+  
+  display: flex;
+ /*  position: absolute;
+  left: 97%; */
+  content: '';
+  width: 5px;
+  height: 5px;
+  border-top: 3px solid #333;
+  border-right: 3px solid #333;
+  -moz-transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+  transform: rotate(135deg);
+}
+.chatbox
+{
+  overflow: auto;
+  height: 100%;
+}
+.chatbox1
+{
+  display: none;
+}
+
+
+.UnseenNotifier
+{
+  font-weight:bold;
+  text-align: center;
+  color:#4e71ba;
+  font-size: 10px;
+
+}
+.scrollbar::-webkit-scrollbar {
+    width: 10px;
+  
+  }
+
+
+  
+  .chatStyleS
+  {
+    display: flex;
+    justify-content: space-between;
+    font-weight:bold;
+    font-size:12px;
+    font-family:monospace;
+    padding-bottom:5px;
+    color:#f2f4f2
+  }
+
+  .chatStyleR
+  {
+    display: flex;
+    justify-content: space-between;
+    font-weight:bold;
+    font-size:12px;
+    font-family:monospace;
+    padding-bottom:5px;
+    color:#f2f4f2
+  }
+
+  
+  /* Track */
+  .scrollbar::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  .scrollbar::-webkit-scrollbar-thumb {
+    background: #888; 
+    border-radius: 8px;
+  }
+  
+  /* Handle on hover */
+  .scrollbar::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }

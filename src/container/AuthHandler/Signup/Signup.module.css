@@ -1,0 +1,33 @@
+.container
+{
+    width: 100%;
+    height: 100%;
+    
+    
+    display: flex;
+    box-sizing: border-box;
+    justify-content:center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    
+}
+.Login{
+    border: none;
+    width: 100px;
+    height: 40px;
+    background-color: #0ba6ff;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+
+@media(max-width:788px)
+{
+    .container
+    {
+        height: 100%;
+    }
+}
