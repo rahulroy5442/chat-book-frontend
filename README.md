@@ -1,14 +1,13 @@
 step 1
 Create .env in root and add
 
-REACT_APP_DOMAIN='http://localhost:'YOUR BACKEND PORT'
+  REACT_APP_DOMAIN='http://localhost:'YOUR BACKEND PORT'
 
 Step 2:
-install the package with
+  Install the package with
+      npm install
 
-npm install
-
-step 3:
-Then start the application with
-npm start
+step 3:  
+  Then start the application with
+      npm start
 
