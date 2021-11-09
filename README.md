@@ -1,7 +1,7 @@
 step 1
 Create .env in root and add
 
-  REACT_APP_DOMAIN='http://localhost:'YOUR BACKEND PORT'
+  REACT_APP_DOMAIN='http://localhost:YOUR BACKEND PORT'
 
 Step 2:
   Install the package with
